@@ -1,11 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HeaderAppComponent } from './header-app/header-app.component';
-import { HomeAppComponent } from './home-app/home-app.component';
-import { ServiceAppComponent } from './service-app/service-app.component';
+import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { ServiceComponent } from './service/service.component';
+
+
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [HeaderAppComponent, HomeAppComponent, ServiceAppComponent],
+  declarations: [
+    HeaderComponent,
+    HomeComponent,
+    ServiceComponent
+  ],
+  imports: [
+    CommonModule
+  ]
 })
-export class WebsiteModule {}
+export class WebsiteModule { }
