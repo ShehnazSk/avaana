@@ -1,113 +1,112 @@
 .services-body {
-    .services-list {
-        display: flex;
-        width: 1266px;
-        margin: 0 auto;
-        gap: 20px;
-        overflow-x: auto;
-        &::-webkit-scrollbar
-        {
-            width: 0px;
-            height: 0px;
-        }
-        .card-box {
-            width: 350px;
-            min-width: 350px;
-            border-radius: 12px;
-            background-color: #ffffff;
-            padding: 10px;
-            height: 200px;
-            font-family: 'Open Sans';
-        }
-    }
+	.services-list {
+		display: flex;
+		width: 1266px;
+		margin: 0 auto;
+		gap: 20px;
+		overflow-x: auto;
+		&::-webkit-scrollbar {
+			width: 0px;
+			height: 0px;
+		}
+		.card-box {
+			width: 350px;
+			min-width: 350px;
+			border-radius: 12px;
+			background-color: #ffffff;
+			padding: 10px;
+			height: 200px;
+			font-family: 'Open Sans';
+		}
+	}
 }
-
 
 .head {
-    display: flex;
-    gap: 15px;
-    .serviceImg {
-        width: 100px;
-        height: 60px;
-    }
-    .name {
-        color: #095D59;
-        font-size: 13px;
-        margin: 0px;
-        font-weight: 800;
-    }
-    .place {
-        color: #095D59;
-        font-size: 13px;
-        margin: 0px;
-        font-weight: 400;
-    }
-    .rating {
-        font-size: 13px;
-        color: #FFC400;
-        margin: 0px;
-        font-weight: 800;
-        display: flex;
-        gap: 2px;
-        span{
-            margin-top: -3.2px;
-        }
-    }
-    .likeImage{
-        width: 20px;
-        height: 20px;
-        margin-left: 50px;
-    }
+	display: flex;
+	gap: 15px;
+	.serviceImg {
+		width: 100px;
+		height: 60px;
+	}
+	.name {
+		color: #095D59;
+		font-size: 13px;
+		margin: 0px;
+		font-weight: 800;
+	}
+	.place {
+		color: #095D59;
+		font-size: 13px;
+		margin: 0px;
+		font-weight: 400;
+	}
+	.rating {
+		font-size: 13px;
+		color: #FFC400;
+		margin: 0px;
+		font-weight: 800;
+		display: flex;
+		gap: 2px;
+		span {
+			margin-top: -3.2px;
+		}
+	}
+	.likeImage {
+		width: 20px;
+		height: 20px;
+		margin-left: 50px;
+	}
 }
+
 .c-body {
-    .serviceName {
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 5px;
-        border-bottom: 2px solid #095D59;
-        margin-bottom: 8px;
-        .s-name {
-            font-size: 16px;
-            font-weight: 700;
-            color: #095D59;
-            margin: 0px;
-        }
-        .s-price {
-            font-size: 16px;
-            color: #095D59;
-            margin: 0px;
-            span:first-child {
-                font-weight: 700;
-            }
-        }
-    }
-    .serviceDate {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
-        .date {
-            font-size: 16px;
-            font-weight: 600;
-            color: #095D59;
-            margin: 0px;
-        }
-        .show-all {
-            font-size: 16px;
-            font-weight: 500;
-            color: #00BD71;
-            margin: 0px;
-            cursor: pointer;
-        }
-    }
-    .serviceTimings {
-        display: flex;
-        .timeBtn {
-            background-color: #F5F5F5;
-            padding: 9px 14px;
-            font-size: 16px;
-            font-weight: 700;
-            color: #095D59;
-            border-radius: 8px;
-        }
-    }
+	.serviceName {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 5px;
+		border-bottom: 2px solid #095D59;
+		margin-bottom: 8px;
+		.s-name {
+			font-size: 16px;
+			font-weight: 700;
+			color: #095D59;
+			margin: 0px;
+		}
+		.s-price {
+			font-size: 16px;
+			color: #095D59;
+			margin: 0px;
+			span:first-child {
+				font-weight: 700;
+			}
+		}
+	}
+	.serviceDate {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		.date {
+			font-size: 16px;
+			font-weight: 600;
+			color: #095D59;
+			margin: 0px;
+		}
+		.show-all {
+			font-size: 16px;
+			font-weight: 500;
+			color: #00BD71;
+			margin: 0px;
+			cursor: pointer;
+		}
+	}
+	.serviceTimings {
+		display: flex;
+		.timeBtn {
+			background-color: #F5F5F5;
+			padding: 9px 14px;
+			font-size: 16px;
+			font-weight: 700;
+			color: #095D59;
+			border-radius: 8px;
+		}
+	}
 }
