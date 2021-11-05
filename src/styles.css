@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: #095d59;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.action-btn {
+  background: #fd896b;
+  padding: 7px 30px;
+  border-radius: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  border: 0px;
+}
